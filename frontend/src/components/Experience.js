@@ -1,7 +1,6 @@
 // experiences.js
 
 import React from "react";
-import { projects } from "../projectData";
 import { OfficeBuildingIcon } from "@heroicons/react/outline";
 
 function Experience() {
@@ -15,10 +14,10 @@ function Experience() {
                 </div>
                 <div class="container mx-auto flex flex-col items-start md:flex-row my-12 md:my-24">
 
-                    <div class="flex flex-col w-full sticky md:top-36 lg:w-1/3 mt-2 md:mt-12 px-8">
+                    <div class="flex flex-col w-full sticky md:top-36 lg:w-1/4 mt-2 md:mt-12 px-8">
                         <p class="text-3xl md:text-4xl leading-normal md:leading-relaxed mb-2"><b><u>Work Experience</u></b></p>
                     </div>
-                    <div class="ml-0 md:ml-12 lg:w-2/3 sticky">
+                    <div class="ml-0 md:ml-12 lg:w-3/4 sticky">
                         <div class="container mx-auto w-full h-full">
                             <div class="relative wrap overflow-hidden p-10 h-full">
                                 <div class="border-2-2 border-yellow-555 absolute h-full border"
@@ -31,9 +30,9 @@ function Experience() {
                                         <p class="mb-3 text-base text-yellow-300">February 2024 - Present</p>
                                         <h4 class="mb-3 font-bold text-lg md:text-2xl">Software Engineer</h4>
                                         <h4 class="mb-3 text-base text-green-500"><b>SiriusMindshare Labs (San Jose, CA)</b></h4>
-                                        <p class="text-sm md:text-base leading-snug text-gray-50 text-opacity-100">
-                                            Pick your favourite event(s) and register in that event by filling the form corresponding to that
-                                            event. Its that easy
+                                        <p class="text-sm md:text-base leading-snug text-gray-300 text-opacity-100">
+                                            Enhanced backend functionality by developing and deploying <b>REST APIs</b>, and expanded product capabilities by 
+                                            creating and integrating Generative AI models.
                                         </p>
                                     </div>
                                 </div>
@@ -43,9 +42,9 @@ function Experience() {
                                         <p class="mb-3 text-base text-yellow-300">June 2023 - December 2023</p>
                                         <h4 class="mb-3 font-bold text-lg md:text-2xl">Software Engineer Intern - Machine Learning</h4>
                                         <h4 class="mb-3 text-base text-green-500"><b>SiriusMindshare Labs (San Jose, CA)</b></h4>
-                                        <p class="text-sm md:text-base leading-snug text-gray-50 text-opacity-100">
-                                            Participate online. The links for your registered events will be sent to you via email and whatsapp
-                                            groups. Use those links and show your talent.
+                                        <p class="text-sm md:text-base leading-snug text-gray-300 text-opacity-100">
+                                        Improved email engagement with an <b>OpenAI Curie</b> chatbot and ReactJS UI, sped up backend processing by integrating models via REST APIs, 
+                                        made the product 25% more efficient with ML models and new features, and reduced errors by 40% by fixing over 15 backend bugs.
                                         </p>
                                     </div>
                                 </div>
@@ -55,9 +54,9 @@ function Experience() {
                                         <p class="mb-3 text-base text-yellow-300">June 2021 - Spetember 2021</p>
                                         <h4 class="mb-3 font-bold text-lg md:text-2xl">Software Engineer Intern</h4>
                                         <h4 class="mb-3 text-base text-green-500"><b>Reliance Jio Limited (Mumbai, IN)</b></h4>
-                                        <p class="text-sm md:text-base leading-snug text-gray-50 text-opacity-100">
-                                            The ultimate genius will be revealed by our judging panel on 10th May, 2021 and the resukts will be
-                                            announced on the whatsapp groups and will be mailed to you.
+                                        <p class="text-sm md:text-base leading-snug text-gray-300 text-opacity-100">
+                                        Led a team to enhance Jio Coverage Platform, reduced integration issues by 20%, saved <b>10 hours</b> weekly 
+                                        by streamlining Excel file validation, and automated data extraction, reducing processing time by 30%.
                                         </p>
                                     </div>
                                 </div>

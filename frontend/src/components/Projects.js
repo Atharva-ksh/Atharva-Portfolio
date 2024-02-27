@@ -1,15 +1,17 @@
 // src/components/Projects.js
 
-import { CodeIcon } from "@heroicons/react/solid";
+import { TerminalIcon } from "@heroicons/react/solid";
 import React from "react";
 import { projects } from "../projectData";
 
 export default function Projects() {
   return (
     <section id="projects" className="text-gray-400 bg-gray-900 body-font">
+      <br></br>
+      <br></br>
       <div className="container px-5 py-10 mx-auto text-center lg:px-40">
         <div className="flex flex-col w-full mb-20">
-          <CodeIcon className="mx-auto inline-block w-10 mb-4 text-gray-400" />
+          <TerminalIcon className="mx-auto inline-block mb-4 text-gray-400 h-18 w-20" />
           <h1 className="sm:text-4xl text-3xl font-medium title-font mb-4 text-white">
             Apps & Models I've Built
           </h1>
@@ -17,6 +19,8 @@ export default function Projects() {
             I love working at the intersection of Software Development and Machine Learning.
             <br></br>
             My projects range from Full-Stack web applications to AI & ML classifiers built to solve real-world problems!
+            <br></br>
+            You can find more projects <a href="https://github.com/Atharva-ksh"><b><u>here!</u></b></a>
           </p>
         </div>
         <div className="flex flex-wrap -m-4">
@@ -28,10 +32,10 @@ export default function Projects() {
               <div className="flex relative h-full">
                 <img
                   alt="gallery"
-                  className="absolute inset-0 w-full h-full object-cover object-center object-top rounded-lg"
+                  className="absolute inset-0 w-full h-full object-cover object-center object-top rounded-lg border-4 border-gray-700"
                   src={project.image}
                 />
-                <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-800 bg-gray-900 opacity-0 hover:opacity-100">
+                <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-700 bg-gray-800 opacity-0 hover:opacity-100 rounded-lg">
                   <h2 className="tracking-widest text-sm title-font font-medium text-green-400 mb-1">
                     {project.subtitle}
                   </h2>

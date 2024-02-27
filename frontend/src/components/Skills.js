@@ -1,5 +1,5 @@
 import React from "react";
-import { BadgeCheckIcon, ChipIcon } from "@heroicons/react/solid";
+import { ChipIcon } from "@heroicons/react/solid";
 
 function Skill({ logo, name, progress }) {
     return (
@@ -39,6 +39,8 @@ function Skills() {
 
     return (
         <section id="skills">
+            <br></br>
+            <br></br>
             <div className="container px-5 py-10 mx-auto">
                 <div className="text-center mb-20">
                     <ChipIcon className="inline-block mb-4 h-18 w-20 text-gray-400" />
