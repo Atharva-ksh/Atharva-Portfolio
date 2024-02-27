@@ -17,7 +17,7 @@ export default function Projects() {
             Apps & Models I've Built
           </h1>
           <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
-            I love working at the intersection of Software Development and Machine Learning.
+            I love working at the intersection of <b>Software Development</b> and <b>Machine Learning</b>.
             <br></br>
             My projects range from Full-Stack web applications to AI & ML classifiers built to solve real-world problems!
             <br></br>

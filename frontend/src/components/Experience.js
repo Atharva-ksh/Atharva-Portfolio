@@ -14,10 +14,16 @@ function Experience() {
                 </div>
                 <div class="container mx-auto flex flex-col items-start md:flex-row my-12 md:my-24">
 
-                    <div class="flex flex-col w-full sticky md:top-36 lg:w-1/4 mt-2 md:mt-12 px-8">
-                        <p class="text-3xl md:text-4xl leading-normal md:leading-relaxed mb-2"><b><u>Work Experience</u></b></p>
+                    <div class="flex flex-col w-full sticky md:top-36 lg:w-1/3 mt-2 md:mt-12 px-8">
+                        <p class="text-3xl md:text-4xl leading-normal md:leading-relaxed mb-2"><b>Work Experience</b></p>
+                        <a
+                            href="/files/Resume.pdf"
+                            download="Resume.pdf"
+                            className="inline-flex text-white bg-yellow-500 border-0 py-2 px-2 focus:outline-none hover:bg-yellow-700 rounded text-lg w-1/3 flex justify-center">
+                            Resume
+                        </a>
                     </div>
-                    <div class="ml-0 md:ml-12 lg:w-3/4 sticky">
+                    <div class="ml-0 md:ml-12 lg:w-2/3 sticky">
                         <div class="container mx-auto w-full h-full">
                             <div class="relative wrap overflow-hidden p-10 h-full">
                                 <div class="border-2-2 border-yellow-555 absolute h-full border"

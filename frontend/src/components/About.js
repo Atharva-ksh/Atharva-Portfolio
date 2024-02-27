@@ -10,7 +10,7 @@ function About() {
                         <br className="hidden lg:inline-block" />I love to build cool Web and Machine Learning applications.
                     </h1>
                     <p className="mb-8 leading-relaxed">
-                        I am currently working as a Software Engineer with a focus on Machine Learning and Backend Engineering.
+                        I am currently working as a <b>Software Engineer</b> with a focus on Machine Learning and Backend Engineering.
                         I love playing guitar, hiking and exploring new food joints near me.
                     </p>
                     <div className="flex justify-center">

@@ -25,7 +25,7 @@ export const projects = [
   },
   {
     title: "Real-Time Driver Guidance System with Multiple Data Streams",
-    subtitle: "Python, OpenCV, React",
+    subtitle: "Python, OpenCV, Image Processing",
     description:
       "Developed a Python-based system for real-time image processing, enabling efficient driver guidance. Led a team to optimize data processing for seamless real-time integration.",
     image: "/images/lane.gif",
