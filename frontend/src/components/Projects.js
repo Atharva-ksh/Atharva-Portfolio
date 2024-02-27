@@ -9,6 +9,7 @@ export default function Projects() {
     <section id="projects" className="text-gray-400 bg-gray-900 body-font">
       <br></br>
       <br></br>
+      
       <div className="container px-5 py-10 mx-auto text-center lg:px-40">
         <div className="flex flex-col w-full mb-20">
           <TerminalIcon className="mx-auto inline-block mb-4 text-gray-400 h-18 w-20" />
@@ -23,12 +24,12 @@ export default function Projects() {
             You can find more projects <a href="https://github.com/Atharva-ksh"><b><u>here!</u></b></a>
           </p>
         </div>
-        <div className="flex flex-wrap -m-4">
+        <div className="flex flex-wrap -m-4 h-full">
           {projects.map((project) => (
             <a
               href={project.link}
               key={project.image}
-              className="sm:w-1/2 w-100 p-4 h-full">
+              className="sm:w-1/2 w-100 p-4">
               <div className="flex relative h-full">
                 <img
                   alt="gallery"

@@ -55,7 +55,7 @@ function Contact() {
                             src='/images/contact.jpg'
                         />
                     </div>
-                    <div className='relative z-10 bg-opacity-50 bg-gray-800 w-1/3 mx-auto p-8 rounded-lg'>
+                    <div className='relative z-10 bg-opacity-40 bg-gray-800 w-1/3 mx-auto p-8 rounded-lg'>
                         <div>
                             <h1 className='mx-auto text-center font-bold text-lg md:text-2xl'><b>Contact Me!</b></h1>
                         </div>
