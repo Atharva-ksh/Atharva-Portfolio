@@ -27,11 +27,13 @@ function About() {
                     </div>
                 </div>
                 <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
-                    <img
-                        className="object-cover object-center rounded-lg w-full md:max-w-lg max-h-90 md:h-auto rounded-full overflow-hidden"
-                        alt="hero"
-                        src="/images/hero.jpg"
-                    />
+                    <div class="circle-container">
+                        <img
+                            class="circle-image"
+                            alt="hero"
+                            src="/images/hero.jpg"
+                        />
+                    </div>
                 </div>
             </div>
         </section>

@@ -2,6 +2,31 @@
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
 
-body {
-    margin: 0;
-  }
+.circle-container {
+  position: relative;
+  display: inline-block;
+}
+
+.circle-image {
+  border-radius: 50%;
+  display: block;
+  width: 500px; /* Adjust as needed */
+  height: 500px; /* Adjust as needed */
+  object-fit: cover;
+  z-index: 1;
+  position: relative;
+}
+
+.circle-container::before {
+  content: '';
+  position: absolute;
+  border-radius: 90%;
+  border: 6px solid #ffffff; 
+}
+
+.circle-container::before {
+  width: 540px; 
+  height: 540px; 
+  top: -40px; 
+  left: -50px;}
+
