@@ -10,8 +10,8 @@
 .circle-image {
   border-radius: 50%;
   display: block;
-  width: 500px; /* Adjust as needed */
-  height: 500px; /* Adjust as needed */
+  width: 100%; /* Make the image fill the container */
+  height: 100%; /* Maintain aspect ratio */
   object-fit: cover;
   z-index: 1;
   position: relative;
@@ -20,15 +20,23 @@
 .circle-container::before {
   content: '';
   position: absolute;
-  border-radius: 90%;
+  border-radius: 50%;
   border: 6px solid #ffffff; 
+  top: -3%; /* Adjust the border position */
+  left: -3%; /* Adjust the border position */
+  width: 106%; /* Adjust the border size */
+  height: 106%; /* Adjust the border size */
 }
 
-.circle-container::before {
-  width: 540px; 
-  height: 540px; 
-  top: -40px; 
-  left: -50px;}
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+  .circle-container::before {
+    top: -5%; /* Adjust the border position for smaller screens */
+    left: -5%; /* Adjust the border position for smaller screens */
+    width: 110%; /* Adjust the border size for smaller screens */
+    height: 110%; /* Adjust the border size for smaller screens */
+  }
+}
 
   /* Style the scrollbar track */
 ::-webkit-scrollbar {
