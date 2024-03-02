@@ -14,7 +14,7 @@ import { HomeIcon } from '@heroicons/react/solid';
 
 function App() {
   return (
-    <main className='text-gray-400 bg-gray-900 body-font overflow-x-hidden'>
+    <main className='text-gray-400 bg-gray-900 body-font'>
       <SpeedInsights />
       <Navbar />
       <About />

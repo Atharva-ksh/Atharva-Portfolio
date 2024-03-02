@@ -36,6 +36,10 @@
     width: 110%; /* Adjust the border size for smaller screens */
     height: 110%; /* Adjust the border size for smaller screens */
   }
+
+  body {
+    overflow-x: hidden;
+  }
 }
 
   /* Style the scrollbar track */
